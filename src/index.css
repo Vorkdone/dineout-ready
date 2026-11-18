@@ -3,9 +3,9 @@
 @import "@ui-sdk/core/web.css" layer(components);
 
 :root {
-  font-family: Inter, system-ui, sans-serif;
-  color: #242424;
-  background: #faf9f6;
+  font-family: "Plus Jakarta Sans", "Inter", system-ui, sans-serif;
+  color: #282C3F;
+  background: #FAFAF8;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
@@ -18,4 +18,22 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+}
+
+button,
+a,
+summary,
+input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+a,
+summary {
+  outline-offset: 3px;
+}
+
+::selection {
+  background: rgba(252, 128, 25, 0.18);
+  color: #282C3F;
 }
